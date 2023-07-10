@@ -4,5 +4,5 @@ Continual Learning is a concept to learn a model for a large number of tasks seq
 
 **This repo is for Prompt-Based Continual Learning**
 
-![Learning to Prompt for Continual Learning](https://arxiv.org/pdf/2112.08654.pdf)
-In this method, learns to dynamically prompt a pre-trained model to learn tasks sequentially under different task transitions. In our proposed framework, prompts are small learnable parameters, which are maintained in a memory space. The objective is to optimize prompts to instruct the model prediction and explicitly manage task-invariant and task-specific knowledge while maintaining model plasticity.
+[Learning to Prompt for Continual Learning](https://arxiv.org/pdf/2112.08654.pdf)
+In this method, learns to dynamically prompt a pre-trained model to learn tasks sequentially under different task transitions. In our proposed framework, prompts are small learnable parameters, which are maintained in a memory space. The objective is to optimize prompts to instruct the model prediction and explicitly manage task-invariant and task-specific knowledge while maintaining model plasticity.
