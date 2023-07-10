@@ -11,7 +11,7 @@ In this method, learns to dynamically prompt a pre-trained model to learn tasks 
 The effectiveness of L2P on multiple continual learning benchmarks, including class- and domainincremental, and task-agnostic settings. 
 The proposed L2P outperforms previous state-of-the-art methods consistently on all benchmarks.
 
-* [DualPrompt: Complementary Prompting for Rehearsal-free Continual Learning] (https://arxiv.org/pdf/2204.04799.pdf) || [GitHub](https://github.com/google-research/l2p)
+* [DualPrompt: Complementary Prompting for Rehearsal-free Continual Learning](https://arxiv.org/pdf/2204.04799.pdf) || [GitHub](https://github.com/google-research/l2p)
 
 DualPrompt, a rehearsal-free continual learning approach to explicitly learn two sets of disjoint prompt spaces, G(eneral)-Prompt
 and E(xpert)-Prompt, that encode task-invariant and task-specific instructions, respectively.
