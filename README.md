@@ -4,7 +4,7 @@ Continual Learning is a concept to learn a model for a large number of tasks seq
 
 **This repo is for Prompt-Based Continual Learning**
 
-* [Learning to Prompt for Continual Learning](https://arxiv.org/pdf/2112.08654.pdf) || [GitHub](https://github.com/google-research/l2p) || [PyTorch] (https://github.com/JH-LEE-KR/l2p-pytorch)
+* [Learning to Prompt for Continual Learning](https://arxiv.org/pdf/2112.08654.pdf) || [GitHub](https://github.com/google-research/l2p) || [PyTorch](https://github.com/JH-LEE-KR/l2p-pytorch)
 
 In this method, learns to dynamically prompt a pre-trained model to learn tasks sequentially under different task transitions.
 The effectiveness of L2P on multiple continual learning benchmarks, including class- and domain-incremental, and task-agnostic settings. 
