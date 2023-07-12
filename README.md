@@ -29,6 +29,12 @@ Rehearsal-Free Continual Learning](https://arxiv.org/pdf/2211.13218.pdf) || [Git
 The author propose to learn a set of prompt components which are assembled with input-conditioned weights to produce input-conditioned prompts,
 resulting in a novel attention-based end-to-end key-query scheme
 
+* [AttriCLIP: A Non-Incremental Learner for Incremental Knowledge Learning](https://arxiv.org/pdf/2305.11488.pdf) || [GitHub](https://github.com/bhrqw/AttriCLIP)
+AttriCLIP is built upon the pre-trained visual-language model CLIP.
+AttriCLIP, which is a prompt tuning approach for continual learning based on CLIP. We train
+different prompts according to the attributes of images to avoid knowledge overwriting caused by training the
+same model in sequence of classes.
+
 
 
 
