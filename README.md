@@ -24,6 +24,11 @@ encoder and decoder are shared among all tasks. Through a dynamic expansion of s
 forward of our decoder network on a task distribution. Our strategy scales to a large number of tasks while having
 negligible memory and time overheads due to strict control of the expansion of the parameters.
 
+* [CODA-Prompt: COntinual Decomposed Attention-based Prompting for
+Rehearsal-Free Continual Learning](https://arxiv.org/pdf/2211.13218.pdf) || [GitHub](https://github.com/GT-RIPL/CODA-Prompt/tree/main)
+The author propose to learn a set of prompt components which are assembled with input-conditioned weights to produce input-conditioned prompts,
+resulting in a novel attention-based end-to-end key-query scheme
+
 
 
 
