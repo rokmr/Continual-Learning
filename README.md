@@ -2,6 +2,7 @@
 
 Continual Learning is a concept to learn a model for a large number of tasks sequentially without forgetting knowledge obtained from the preceding tasks, where the data in the old tasks are not available anymore during training new ones. [Comprehensive Survey](https://arxiv.org/pdf/2302.00487.pdf)
 
+
 **This repo is for Prompt-Based Continual Learning**
 
 * [Learning to Prompt for Continual Learning](https://arxiv.org/pdf/2112.08654.pdf) || [GitHub](https://github.com/google-research/l2p) || [PyTorch](https://github.com/JH-LEE-KR/l2p-pytorch)
@@ -26,14 +27,23 @@ negligible memory and time overheads due to strict control of the expansion of t
 
 * [CODA-Prompt: COntinual Decomposed Attention-based Prompting for
 Rehearsal-Free Continual Learning](https://arxiv.org/pdf/2211.13218.pdf) || [GitHub](https://github.com/GT-RIPL/CODA-Prompt/tree/main)
+
 The author propose to learn a set of prompt components which are assembled with input-conditioned weights to produce input-conditioned prompts,
 resulting in a novel attention-based end-to-end key-query scheme
 
 * [AttriCLIP: A Non-Incremental Learner for Incremental Knowledge Learning](https://arxiv.org/pdf/2305.11488.pdf) || [GitHub](https://github.com/bhrqw/AttriCLIP)
+
 AttriCLIP is built upon the pre-trained visual-language model CLIP.
 AttriCLIP, which is a prompt tuning approach for continual learning based on CLIP. We train
 different prompts according to the attributes of images to avoid knowledge overwriting caused by training the
 same model in sequence of classes.
+
+* [S-Prompts Learning with Pre-trained Transformers: An Occam’s Razor for Domain Incremental Learning](https://arxiv.org/pdf/2207.12819.pdf) || [GitHub](https://github.com/iamwangyabin/S-Prompts)
+
+In this paper, we explore a rule-breaking idea to instead play a win-win game, i.e., learning the
+prompts independently across domains so that the prompting can achieve the best for each domain.
+This setup is for **DIL**
+![Model](https://github.com/iamwangyabin/S-Prompts/blob/main/SPrompts.png)
 
 
 
