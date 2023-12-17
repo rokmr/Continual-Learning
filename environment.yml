@@ -1,0 +1,10 @@
+name: slca
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - tqdm
+  - numpy
+  - scipy==1.11.1
+  - python == 3.10.12
